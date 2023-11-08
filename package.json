@@ -1,0 +1,28 @@
+{
+  "name": "form-via-html",
+  "version": "1.0.0",
+  "description": "Projeto feito com o intuito de aprender sobre a manipulação de parâmetros enviados ao servidor via formulário HTML..",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guxta-RDM/Form-Via-HTML.git"
+  },
+  "keywords": [
+    "Node",
+    "Aprender",
+    "Projeto"
+  ],
+  "author": "Gustavo Alonso da Silva Candido",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guxta-RDM/Form-Via-HTML/issues"
+  },
+  "homepage": "https://github.com/Guxta-RDM/Form-Via-HTML#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

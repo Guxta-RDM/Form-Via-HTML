@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../Icone/favicon.ico">
+    <link rel="stylesheet" href="../Estilos/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div id="caixa">
+        <form>
+
+            <h3>CADASTRO</h3>
+            <label class="rotul" for="nomeFIRST">Nome:</label>
+            <input type="text" id="nomeFIRST" name="Nome" placeholder="Insira seu nome" required>
+            <label class="rotul" for="nomeSECOND">Sobrenome:</label>
+            <input type="text" id="nomeSECOND" name="Sobrenome" placeholder="Insira seu sobrenome" required>
+            <label class="rotul" for="nomeUSU">Nome de Usuário:</label>
+            <input type="text" id="nomeUSU" name="NomeUsuário" placeholder="Insira seu nome de usuário" required>
+            <label class="rotul" for="em">Email:</label>
+            <input type="email" id="em" name="Email" placeholder="Insira seu email" required>
+            <label class="rotul" for="num">Número de Celular:</label>
+            <input type="tel" onkeypress="maskPhoneNumber('num')" pattern="^\([1-9]{2}\) (?:[2-8]|9[0-9])[0-9]{3}\-[0-9]{4}$" id="num" name="NúmeroCEL" placeholder="Insira seu número" required>
+            <br>
+            <input type="submit" value="Cadastrar" id="BotCad">
+    
+        </form>
+    </div>
+</body>
+</html>

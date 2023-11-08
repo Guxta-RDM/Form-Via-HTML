@@ -1,0 +1,51 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(54, 49, 49) ;
+    color: white;
+}
+form
+{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+input
+{
+    display: block;
+    margin: 5px auto;
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+}
+#caixa
+{
+    width: 450px;
+    background-color: rgb(194, 181, 181);
+    text-align: center;
+    margin-top: 50 auto;
+    display: block;
+    color: black;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+.rotul
+{
+    font-weight: bold;
+    margin-left: 10px;
+}
+#BotCad
+{
+    color: white;
+    background-color: green;
+}
